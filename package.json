@@ -4,8 +4,8 @@
   "version": "1.0.0",
   "type": "module",
   "author": {
-    "name": "Hỏi Dân IT vs Eric",
-    "url": "https://hoidanit.vn"
+    "name": "Minh Huynh",
+    "url": "https://github.com/nhockcuncon77"
   },
   "scripts": {
     "dev": "vite",

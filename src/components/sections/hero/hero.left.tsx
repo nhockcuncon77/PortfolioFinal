@@ -36,10 +36,10 @@ const HeroLeft = (props : Iprops) => {
             <Typewriter
                 options={{
                     strings: [
-                        "Software Developer",
-                        "Freelancer",
-                        "MERN Stack Developer",
-                        "Open Source Contributor",
+                        "AI/ML & Full-Stack Engineer",
+                        "Cloud-Native Specialist",
+                        "React & Django Developer",
+                        "LLM & RAG Systems",
                     ],
                     autoStart: true,
                     loop: true,
@@ -55,6 +55,7 @@ const HeroLeft = (props : Iprops) => {
                     linkedin={APP_DATA.LINKEDIN_URL}
                     medium={APP_DATA.MEDIUM_URL}
                     github={APP_DATA.GITHUB_URL}
+                    leetcode={APP_DATA.LEETCODE_URL}
                 />
             </div>
             <div className="d-md-flex d-none gap-4">

@@ -18,17 +18,15 @@ const About = () => {
                     <h3 className="text-center mb-md-5 mb-2">Know Who <span className="brand-red">I'M</span> </h3>
                     <div>
                         <div>
-                            <p> Hi Everyone, I am Minh Viet Huynh from Seattle, WA.</p>
+                            <p>Hi, I'm Minh Huynh, based in Anaheim, CA.</p>
 
-                            <p> I am currently employed as a a freelance dev (start-up).</p>
+                            <p>I'm a Full Stack Developer with expertise in building scalable, multi-tenant SaaS platforms using React (TypeScript), Python (Django), Java (Spring Boot), C++, Go, and PostgreSQL.</p>
 
-                            <p> I am currently doing Bachelor's degree in Computer Science at City University of Seattle(CityU).</p>
+                            <p>I'm a Cloud-Native Specialist experienced in architecting AWS environments (ECS, Lambda, RDS) and managing container orchestration via Docker and Kubernetes. I focus on API-first design, Agile methodologies, and clean, maintainable code following SOLID principles.</p>
                         </div>
                     </div>
                     <div>
-                        <p>Apart from coding, some other activities that I love to do!
-
-                        </p>
+                        <p>Beyond coding, I enjoy:</p>
                         <ul>
                             <li>Playing Chess</li>
                             <li>Writing Trading/Finance Blogs</li>
@@ -37,7 +35,7 @@ const About = () => {
                     </div>
                     <div>
                         <p className="text-center brand-red">"Pursuing Your Dreams Is How You Become Homeless ~.~"</p>
-                        <p className="text-center brand-red">--Jimmy O Yang</p>
+                        <p className="text-center brand-red">— Jimmy O Yang</p>
                     </div>
                 </Col >
                 <Col md={6} xs={12} className="d-flex align-items-center justify-content-center">
@@ -66,43 +64,15 @@ const About = () => {
                                 <div className="p-3 relative">
                                     <div className="experience-container">
                                         <div className="duration-text">
-                                            <p>Oct 2024 - 2026</p>
+                                            <p>City University of Seattle</p>
                                         </div>
                                         <div className="details">
                                             <div className="icon">
                                                 <FaGraduationCap size={36} />
                                             </div>
                                             <div className="info">
-                                                <p className="title">Computer Science</p>
+                                                <p className="title">Bachelor of Applied Computer Science</p>
                                                 <p className="company">City University of Seattle</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="experience-container">
-                                        <div className="duration-text">
-                                            <p>Sep 2022 - May 2024</p>
-                                        </div>
-                                        <div className="details">
-                                            <div className="icon">
-                                                <FaGraduationCap size={36} />
-                                            </div>
-                                            <div className="info">
-                                                <p className="title">Computer Science</p>
-                                                <p className="company">FPT University(Funix Program)</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="experience-container">
-                                        <div className="duration-text">
-                                            <p>Aug 2021 – Feb 2022</p>
-                                        </div>
-                                        <div className="details">
-                                            <div className="icon">
-                                                <FaGraduationCap size={36} />
-                                            </div>
-                                            <div className="info">
-                                                <p className="title">Data Science</p>
-                                                <p className="company">Bloom Institute of Technology</p>
                                             </div>
                                         </div>
                                     </div>
@@ -122,6 +92,7 @@ const About = () => {
                         linkedin={APP_DATA.LINKEDIN_URL}
                         medium={APP_DATA.MEDIUM_URL}
                         github={APP_DATA.GITHUB_URL}
+                        leetcode={APP_DATA.LEETCODE_URL}
                     />
                 </Col >
                 <Col md={6} xs={12} className="d-flex flex-column align-items-center justify-content-center">
