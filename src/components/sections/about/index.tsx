@@ -15,27 +15,12 @@ const About = () => {
         <>
             <Row>
                 <Col md={6} xs={12}>
-                    <h3 className="text-center mb-md-5 mb-2">Know Who <span className="brand-red">I'M</span> </h3>
+                    <h3 className="text-center mb-md-5 mb-2">Professional <span className="brand-red">Summary</span></h3>
                     <div>
-                        <div>
-                            <p>Hi, I'm Minh Huynh, based in Anaheim, CA.</p>
-
-                            <p>I'm a Full Stack Developer with expertise in building scalable, multi-tenant SaaS platforms using React (TypeScript), Python (Django), Java (Spring Boot), C++, Go, and PostgreSQL.</p>
-
-                            <p>I'm a Cloud-Native Specialist experienced in architecting AWS environments (ECS, Lambda, RDS) and managing container orchestration via Docker and Kubernetes. I focus on API-first design, Agile methodologies, and clean, maintainable code following SOLID principles.</p>
-                        </div>
-                    </div>
-                    <div>
-                        <p>Beyond coding, I enjoy:</p>
-                        <ul>
-                            <li>Playing Chess</li>
-                            <li>Writing Trading/Finance Blogs</li>
-                            <li>Traveling</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <p className="text-center brand-red">"Pursuing Your Dreams Is How You Become Homeless ~.~"</p>
-                        <p className="text-center brand-red">— Jimmy O Yang</p>
+                        <p className="mb-3">Full Stack Developer with expertise in building scalable, multi-tenant SaaS platforms using React (TypeScript), Python (Django), Java (Spring Boot), C++, Go, and PostgreSQL.</p>
+                        <p className="mb-3">Cloud-Native Specialist experienced in architecting AWS environments (ECS, Lambda, RDS) and managing container orchestration via Docker and Kubernetes.</p>
+                        <p className="mb-0">Collaborative leader skilled in API-first design, Agile methodologies, and writing clean, maintainable code following SOLID principles.</p>
+                        <p className="small text-muted mt-3 mb-0">Reference available upon request.</p>
                     </div>
                 </Col >
                 <Col md={6} xs={12} className="d-flex align-items-center justify-content-center">
@@ -86,7 +71,7 @@ const About = () => {
             <Divider />
             <Row>
                 <Col md={6} xs={12} className=" mt-md-5 mt-3">
-                    <h3 className="mb-md-5 mb-2">FIND ME ON </h3>
+                    <h3 className="mb-md-5 mb-2">Connect</h3>
                     <SocialMedia
                         gmail={APP_DATA.GMAIL_URL}
                         linkedin={APP_DATA.LINKEDIN_URL}

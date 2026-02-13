@@ -1,29 +1,29 @@
 {
-    "appHeader": {
-        "brand": "Minh Viet Huynh",
-        "home": "Home",
-        "project": "Project",
-        "contact": "Contact",
-        "about": "About"
-    },
-    "heroSection": {
-        "exp": "My Skill",
-        "cv": "Get Resume"
-    },
-    "introSection": {
-        "about": "About me",
-        "and": "and",
-        "heading1": "I'm passionate about building scalable systems and AI/ML solutions.",
-        "heading2": "I work with",
-        "heading3": "My focus is building",
-        "heading4": "Full-Stack & Cloud-Native Systems",
-        "heading5": "I develop products with",
-        "heading6": "I'm also passionate about "
-    },
-    "experience": {
-        "title": "Experiences"
-    },
-    "skill": {
-        "title": "Skills"
-    }
+  "appHeader": {
+    "brand": "Minh Viet Huynh",
+    "home": "Home",
+    "project": "Project",
+    "contact": "Contact",
+    "about": "About"
+  },
+  "heroSection": {
+    "greeting": "Hello, I am",
+    "exp": "View Experience",
+    "cv": "Download Resume"
+  },
+  "introSection": {
+    "about": "About",
+    "and": "and",
+    "heading1": "Full Stack Developer with expertise in building scalable, multi-tenant SaaS platforms using React (TypeScript), Python (Django), Java (Spring Boot), C++, Go and PostgreSQL.",
+    "heading2": "Cloud-Native Specialist experienced in architecting AWS environments (ECS, Lambda, RDS) and managing container orchestration via Docker and Kubernetes.",
+    "heading3": "Collaborative leader skilled in API-first design, Agile methodologies, and writing clean, maintainable code following SOLID principles."
+  },
+  "experience": {
+    "title": "Recent Experience",
+    "subtitle": "Professional history and key contributions"
+  },
+  "skill": {
+    "title": "Skills & Toolkit",
+    "subtitle": "Technologies and tools I use to build and ship products"
+  }
 }

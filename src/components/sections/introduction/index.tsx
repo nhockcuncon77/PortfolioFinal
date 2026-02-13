@@ -12,67 +12,24 @@ const Introduction = () => {
             <Row>
                 <Col xs={12} md={9}>
                     <h2 className='text-center text-md-start'>
-                        {i18n.resolvedLanguage === "en" ? <>
-                            LET ME <span className='text-pink-100'> INTRODUCE </span> MYSELF
-                        </>
-                            :
-                            <>
-                                <span className='text-pink-100'>GIỚI THIỆU</span> BẢN THÂN
-                            </>
-                        }
+                        {i18n.resolvedLanguage === "en" ? (
+                            <>AI/ML & <span className='text-pink-100'>FULL-STACK</span> ENGINEERING</>
+                        ) : (
+                            <>AI/ML & <span className='text-pink-100'>FULL-STACK</span> ENGINEERING</>
+                        )}
                     </h2>
                     <br />
                     <p>
                         {t("introSection.heading1")}
-                        <br />
-                        <br />{t("introSection.heading2")}
-                        <i>
-                            <b className='text-pink-100'> Java {t(",")} Python {t(",")} Javascript {t("introSection.and")} C++. </b>
-                        </i>
-                        <br />
-                        <br />
-                        {t("introSection.heading3")} &nbsp;
-                        <i>
-                            <b className='text-pink-100'>
-                                {t("introSection.heading4")}
-                            </b>
-                        </i>
-                        <br />
-                        <br />
-                        {t("introSection.heading5")}
-                        <i><b className='text-pink-100'>&nbsp;Java Spring</b> </i>
-                        {t("introSection.and")}
-                        <i>
-                            <b className='text-pink-100'>
-                                {" "}
-                                Node.js
-                            </b>
-                        </i>
-                        <br />
-                        <br />
-                        {t("introSection.heading6")}
-                        <i><b className='text-pink-100'>&nbsp;AI Automation</b> </i>
-                        {t(",")}
-                        <i>
-                            <b className='text-pink-100'>
-                                {" "}
-                                Quantitative Finance
-                                {" "}
-                            </b>
-                        </i>
-                        {t("introSection.and")}
-                        <i>
-                            <b className='text-pink-100'>
-                                {" "}
-                                Investment Trading
-                            </b>
-                        </i>
-
+                        <br /><br />
+                        {t("introSection.heading2")}
+                        <br /><br />
+                        {t("introSection.heading3")}
                     </p>
                 </Col>
                 <Col md={3} className='d-md-block d-none'>
                     <Tilt>
-                        <img src={avatarImg} className="img-fluid" alt="avatar" />
+                        <img src={avatarImg} className="img-fluid" alt="Minh Huynh" />
                     </Tilt>
                 </Col>
             </Row>
@@ -81,7 +38,7 @@ const Introduction = () => {
                 <span className="vertical-line"></span>
             </div>
         </section>
-    )
-}
+    );
+};
 
 export default Introduction;

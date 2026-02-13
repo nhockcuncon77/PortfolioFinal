@@ -157,7 +157,32 @@
 
                 &.company {
                     font-size: 0.875rem;
+                    text-transform: none;
                 }
+            }
+        }
+    }
+
+    .experience-highlights {
+        list-style: none;
+        padding-left: 0;
+        margin: 0.75rem 0 0 0;
+        font-size: 0.875rem;
+        line-height: 1.5;
+
+        li {
+            position: relative;
+            padding-left: 1rem;
+            margin-bottom: 0.5rem;
+            color: var(--text-white-1, inherit);
+
+            &::before {
+                content: "●";
+                position: absolute;
+                left: 0;
+                color: var(--brand-name-200, #ec4899);
+                font-size: 0.5rem;
+                top: 0.4em;
             }
         }
     }

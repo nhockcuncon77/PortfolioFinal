@@ -12,6 +12,7 @@ const Skill = () => {
             <Col xs={12} className="my-3 my-md-5">
                 <div className="text-center">
                     <h3>{t("skill.title")}</h3>
+                    <p className="text-muted small mt-1">{t("skill.subtitle")}</p>
                 </div>
             </Col>
             <Col xs={12} className="skills-marquee">

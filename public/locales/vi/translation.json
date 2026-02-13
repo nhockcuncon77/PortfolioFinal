@@ -1,29 +1,29 @@
 {
-    "appHeader": {
-        "brand": "Minh Việt Huỳnh",
-        "home": "Trang chủ",
-        "project": "Dự án",
-        "contact": "Liên hệ",
-        "about": "Về tác giả"
-    },
-    "heroSection": {
-        "exp": "Kinh nghiệm",
-        "cv": "Tải Resume"
-    },
-    "introSection": {
-        "about": "Giới thiệu",
-        "and": "và",
-        "heading1": "Tôi đam mê xây dựng hệ thống có khả năng mở rộng và giải pháp AI/ML.",
-        "heading2": "Tôi làm việc với",
-        "heading3": "Trọng tâm của tôi là xây dựng",
-        "heading4": "Full-Stack & Hệ thống Cloud-Native",
-        "heading5": "Tôi phát triển sản phẩm với",
-        "heading6": "Tôi cũng đam mê "
-    },
-    "experience": {
-        "title": "Kinh nghiệm làm việc"
-    },
-    "skill": {
-        "title": "Kỹ năng"
-    }
+  "appHeader": {
+    "brand": "Minh Việt Huỳnh",
+    "home": "Trang chủ",
+    "project": "Dự án",
+    "contact": "Liên hệ",
+    "about": "Về tác giả"
+  },
+  "heroSection": {
+    "greeting": "Xin chào, tôi là",
+    "exp": "Xem kinh nghiệm",
+    "cv": "Tải Resume"
+  },
+  "introSection": {
+    "about": "Giới thiệu",
+    "and": "và",
+    "heading1": "Full Stack Developer với chuyên môn xây dựng nền tảng SaaS đa tenant có khả năng mở rộng, sử dụng React (TypeScript), Python (Django), Java (Spring Boot), C++, Go và PostgreSQL.",
+    "heading2": "Chuyên gia Cloud-Native với kinh nghiệm kiến trúc môi trường AWS (ECS, Lambda, RDS) và quản lý container orchestration qua Docker và Kubernetes.",
+    "heading3": "Collaborative leader thành thạo thiết kế API-first, phương pháp Agile và viết code sạch, dễ bảo trì theo nguyên tắc SOLID."
+  },
+  "experience": {
+    "title": "Kinh nghiệm gần đây",
+    "subtitle": "Lịch sử nghề nghiệp và đóng góp chính"
+  },
+  "skill": {
+    "title": "Kỹ năng & Công cụ",
+    "subtitle": "Công nghệ và công cụ tôi sử dụng để xây dựng và triển khai sản phẩm"
+  }
 }

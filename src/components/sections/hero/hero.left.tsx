@@ -23,14 +23,8 @@ const HeroLeft = (props : Iprops) => {
     }
     return (
         <div className='hero-left'>
-            <h3>
-                Hi There!{" "}
-                <span className="wave" role="img" aria-labelledby="wave">
-                    👋🏻
-                </span>
-            </h3>
-            <h3 style={{ paddingTop: 10, paddingBottom: 5 }}>
-                I'M &nbsp;
+            <h3 className="text-uppercase small text-muted mb-1">{t("heroSection.greeting")}</h3>
+            <h3 style={{ paddingTop: 4, paddingBottom: 5 }}>
                 <strong className="brand-red">{t("appHeader.brand")}</strong>
             </h3>
             <Typewriter
@@ -38,7 +32,7 @@ const HeroLeft = (props : Iprops) => {
                     strings: [
                         "AI/ML & Full-Stack Engineer",
                         "Cloud-Native Specialist",
-                        "React & Django Developer",
+                        "React, Django & TypeScript",
                         "LLM & RAG Systems",
                     ],
                     autoStart: true,

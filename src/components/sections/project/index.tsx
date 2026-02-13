@@ -7,8 +7,8 @@ const Project = () => {
         <>
             <Row>
                 <Col xs={12}>
-                    <h3 className="text-center">My Recent <span className="brand-red">Works</span> </h3>
-                    <h6 className="text-center mb-md-5 mb-2">Here are a few projects I've worked on recently.</h6>
+                    <h3 className="text-center">Key Product <span className="brand-red">Launches</span></h3>
+                    <h6 className="text-center mb-md-5 mb-2 text-muted">Multi-tenant Amazon Seller SaaS · AI-powered Sleep Analysis · RAG Data Assistant</h6>
                 </Col>
             </Row>
             <Row
