@@ -46,7 +46,7 @@ const HomePage = () => {
                             <ResizeButton
                                 btnText={t("heroSection.cv")}
                                 btnIcons={<MdFileDownload />}
-                                onClick={() => window.open("https://drive.google.com/file/d/1EvtRs2pNu7dNDSwUXtdVQLq7-0fj6es7/view?usp=sharing", "_blank", "noopener,noreferrer")}
+                                onClick={() => window.open("https://drive.google.com/file/d/1K2CyXnRZnf1h6WFJz8-pfHP5dnX_-WmR/view?usp=sharing", "_blank", "noopener,noreferrer")}
                             />
                         </Col>
                     </Row>
