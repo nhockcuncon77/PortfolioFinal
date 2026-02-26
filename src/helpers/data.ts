@@ -54,6 +54,28 @@ export const EXPERIENCES = [
     },
     {
         id: 3,
+        title: { vi: "Kỹ sư phần mềm", en: "Software Engineer" },
+        company: { vi: "Intrastack Solutions | Remote", en: "Intrastack Solutions | Remote" },
+        duration: { vi: "Tháng 1/2022 – Tháng 3/2025", en: "Jan 2022 – Mar 2025" },
+        highlights: {
+            en: [
+                "Designed and implemented an AI-driven resume parsing engine using NLP (NER, skill extraction) and embeddings-based similarity scoring for candidate-job matching, improving match precision by 30%.",
+                "Built a bias-reduction preprocessing pipeline and an explainable ranking algorithm that transparently weighted skill relevance and experience alignment.",
+                "Automated full hiring workflow (candidate pipeline management, interview scheduling, and AI-generated screening questions) cutting resume screening time by 75%.",
+                "Developed RESTful microservices and analytic dashboards to surface hiring KPIs, enabling recruiters to monitor funnel health and optimize decision-making.",
+                "Delivered cloud-native deployment on AWS (ECS, Lambda, RDS) with secure role-based access control (RBAC) for recruiters, managers, and admins."
+            ],
+            vi: [
+                "Thiết kế và triển khai engine phân tích resume AI dùng NLP (NER, trích xuất kỹ năng) và embeddings similarity scoring cho ghép ứng viên–công việc, cải thiện độ chính xác match 30%.",
+                "Xây dựng pipeline tiền xử lý giảm bias và thuật toán xếp hạng có thể giải thích, trọng số minh bạch theo relevance kỹ năng và kinh nghiệm.",
+                "Tự động hóa quy trình tuyển dụng (quản lý pipeline ứng viên, lịch phỏng vấn, câu hỏi sàng lọc AI), giảm 75% thời gian sàng lọc resume.",
+                "Phát triển microservices RESTful và dashboard phân tích để hiển thị hiring KPIs, giúp recruiter theo dõi funnel và tối ưu quyết định.",
+                "Triển khai cloud-native trên AWS (ECS, Lambda, RDS) với RBAC cho recruiter, manager và admin."
+            ]
+        }
+    },
+    {
+        id: 4,
         title: { vi: "Thực tập sinh Kỹ sư phần mềm", en: "Software Engineer Intern" },
         company: { vi: "Underdog Devs | Remote", en: "Underdog Devs | Remote" },
         duration: { vi: "Tháng 11/2021 – Tháng 5/2022", en: "Nov 2021 – May 2022" },
