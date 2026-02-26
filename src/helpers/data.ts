@@ -59,18 +59,18 @@ export const EXPERIENCES = [
         duration: { vi: "Tháng 1/2022 – Tháng 3/2025", en: "Jan 2022 – Mar 2025" },
         highlights: {
             en: [
-                "Designed and implemented an AI-driven resume parsing engine using NLP (NER, skill extraction) and embeddings-based similarity scoring for candidate-job matching, improving match precision by 30%.",
-                "Built a bias-reduction preprocessing pipeline and an explainable ranking algorithm that transparently weighted skill relevance and experience alignment.",
-                "Automated full hiring workflow (candidate pipeline management, interview scheduling, and AI-generated screening questions) cutting resume screening time by 75%.",
-                "Developed RESTful microservices and analytic dashboards to surface hiring KPIs, enabling recruiters to monitor funnel health and optimize decision-making.",
-                "Delivered cloud-native deployment on AWS (ECS, Lambda, RDS) with secure role-based access control (RBAC) for recruiters, managers, and admins."
+                "GenAI RFP Intelligence Engine: Architected and deployed a GenAI-powered RFP intelligence engine leveraging RAG and AWS Bedrock to parse 1,500+ enterprise RFPs, achieving 92% accuracy in automated requirement extraction and reducing proposal preparation time by 50%.",
+                "ML Win Probability Modeling: Developed an ML-based win probability scoring model using XGBoost and historical deal data, deployed via Amazon SageMaker to optimize bid prioritization and increase year-over-year win rates by 18%.",
+                "AI Compliance Pipeline: Engineered an AI-driven compliance gap detection pipeline utilizing NLP classifiers and LLM verification to flag missing requirements with 95% recall, significantly minimizing disqualification risks for high-stakes bids.",
+                "Scalable Serverless Infrastructure: Designed a high-concurrency serverless architecture using AWS Lambda and Step Functions capable of processing 300+ concurrent RFP submissions with automated audit logging and secure IAM policies for enterprise-grade data isolation.",
+                "Executive Data Visualization: Built a real-time executive dashboard using React and AWS QuickSight to surface critical bid pipeline insights, compliance status, and AI confidence scores, enabling data-driven leadership decisions."
             ],
             vi: [
-                "Thiết kế và triển khai engine phân tích resume AI dùng NLP (NER, trích xuất kỹ năng) và embeddings similarity scoring cho ghép ứng viên–công việc, cải thiện độ chính xác match 30%.",
-                "Xây dựng pipeline tiền xử lý giảm bias và thuật toán xếp hạng có thể giải thích, trọng số minh bạch theo relevance kỹ năng và kinh nghiệm.",
-                "Tự động hóa quy trình tuyển dụng (quản lý pipeline ứng viên, lịch phỏng vấn, câu hỏi sàng lọc AI), giảm 75% thời gian sàng lọc resume.",
-                "Phát triển microservices RESTful và dashboard phân tích để hiển thị hiring KPIs, giúp recruiter theo dõi funnel và tối ưu quyết định.",
-                "Triển khai cloud-native trên AWS (ECS, Lambda, RDS) với RBAC cho recruiter, manager và admin."
+                "GenAI RFP Intelligence Engine: Thiết kế và triển khai engine RFP thông minh dựa trên GenAI (RAG, AWS Bedrock), xử lý 1.500+ RFP doanh nghiệp, đạt 92% độ chính xác trích xuất yêu cầu tự động và giảm 50% thời gian chuẩn bị proposal.",
+                "ML Win Probability Modeling: Phát triển mô hình chấm điểm xác suất thắng thầu bằng XGBoost và dữ liệu deal lịch sử, triển khai qua Amazon SageMaker để tối ưu ưu tiên bid và tăng win rate YoY 18%.",
+                "AI Compliance Pipeline: Xây dựng pipeline phát hiện lỗ hổng compliance bằng NLP classifiers và LLM verification, recall 95%, giảm rủi ro loại hồ sơ cho bid giá trị cao.",
+                "Scalable Serverless Infrastructure: Thiết kế kiến trúc serverless high-concurrency (AWS Lambda, Step Functions) xử lý 300+ RFP đồng thời, audit logging tự động và IAM cho cách ly dữ liệu cấp doanh nghiệp.",
+                "Executive Data Visualization: Xây dựng dashboard điều hành real-time (React, AWS QuickSight) hiển thị bid pipeline, trạng thái compliance và AI confidence scores phục vụ quyết định data-driven."
             ]
         }
     },
